@@ -1,0 +1,6 @@
+.row {
+  min-height: 50px;
+  display: grid;
+  grid-template-columns: 10% 45% 45%;
+  align-items: center;
+}

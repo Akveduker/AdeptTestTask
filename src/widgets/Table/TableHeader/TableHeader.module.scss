@@ -1,0 +1,33 @@
+.row {
+  background-color: var(--table-header-color);
+  font-weight: 700;
+  color: #fff;
+  position: relative;
+}
+.rowFixed {
+  border: solid #000;
+  border-width: 1px 0 0 1px;
+}
+
+.checkbox {
+  justify-content: center;
+  cursor: pointer;
+}
+.fixed {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+}
+.buttons {
+  position: absolute;
+  transform: translateX(100%);
+  right: -5px;
+  top: 0;
+}
+
+.addButton {
+  margin-bottom: 10px;
+}

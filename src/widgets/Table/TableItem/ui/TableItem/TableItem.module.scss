@@ -1,0 +1,10 @@
+.checkbox {
+  justify-content: center;
+  cursor: pointer;
+}
+.rowEmpty {
+  border: none;
+}
+.checked {
+  background-color: var(--checked-row);
+}

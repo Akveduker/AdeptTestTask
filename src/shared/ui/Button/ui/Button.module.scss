@@ -1,0 +1,22 @@
+.button {
+  padding: 7.5px 10px;
+  border-radius: 5px;
+  border: 1px solid #000;
+  transition: all 0.3s ease;
+}
+.confirm {
+  background-color: var(--ok-green);
+  border: 1px solid var(--ok-green);
+  color: #424242;
+  &:hover {
+    background-color: var(--ok-green-hover);
+  }
+}
+.cancel {
+  background-color: var(--danger-red);
+  border: 1px solid var(--danger-red);
+  color: #fff;
+  &:hover {
+    background-color: var(--danger-red-hover);
+  }
+}
